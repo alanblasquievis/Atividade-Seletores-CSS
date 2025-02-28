@@ -3,10 +3,10 @@ describe('template spec', () => {
     cy.visit('https://guairaca.jacad.com.br/academico/aluno-v2/login');
      cy.get('input[name="login.login"]')
       .click()
-      .type('11032124946');
+      .type('');
       cy.get('input[name="login.password"]')
       .click()
-      .type('Blask10alan');
+      .type('');
       cy.get('#btn-login').click();
   })
 })
